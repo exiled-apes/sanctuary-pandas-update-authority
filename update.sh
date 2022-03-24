@@ -1,4 +1,9 @@
 #!/bin/bash
+set -e
+
+# List balance and address of keypair.json file
+solana -k ./keypair.json address
+solana -k ./keypair.json balance
 
 # https://metaboss.rs/set.html?highlight=update%20authority#set-update-authority
 # metaboss set update-authority-all --keypair <PATH_TO_KEYPAIR> --mint-accounts-file <PATH_TO_MINT_ACCOUNTS> --new-update-authority <NEW_UPDATE_AUTHORITY>

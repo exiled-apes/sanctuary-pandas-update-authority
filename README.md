@@ -6,6 +6,8 @@ A simple script to set a new update authority on a list of NFT mint addresses
 
 This command installs Solana, Rust, and Metaboss. Which are required tools to transfer update authority.
 
+If you have these tools already installed no need to run this command. If you are missing one of these tools you will have to install it manually. See `install.sh` for more details.
+
 ```bash
 ./install.sh
 ```
